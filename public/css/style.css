@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(219, 215, 215);
+}
+
+.banner {
+  width: 100%;
+  min-height: 100vh;
+  background: url("/images/banner.jpg") center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.banner h1 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+}
+
+.contactoInfo{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#card {
+  padding-top: 50px;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+img {
+  margin: 20px 0;
+}
